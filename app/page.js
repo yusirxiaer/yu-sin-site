@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
           priority
         />
       </div>
-      <h1>YUSIRXIAER HELLO WORLD</h1>
+      <h1 className={styles.yu}>YUSIRXIAER HELLO WORLD</h1>
       <div className='mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left'>
         <a
           href='https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
